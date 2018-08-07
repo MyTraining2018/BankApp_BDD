@@ -55,7 +55,7 @@ public class TestMockAccount {
 		Mockito.verify(accountDao).addAccount(account);
 		
 		
-		assertEquals(account.getOpeningBalance(), new_account.getOpeningBalance(),0.0);
+		assertEquals(200, new_account.getOpeningBalance(),0.0);
 		
 	}
 
