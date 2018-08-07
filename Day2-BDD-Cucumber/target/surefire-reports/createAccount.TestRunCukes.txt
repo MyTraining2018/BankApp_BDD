@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: createAccount.TestRunCukes
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.793 sec
+Tests run: 21, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.542 sec <<< FAILURE!
+Then create new Account(Scenario: For valid customer create new Account)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at createAccount.Stepdef.create_new_Account(Stepdef.java:95)
+	at ?.Then create new Account(createAccount/createAccount.feature:8)
+
+Scenario: For valid customer create new Account  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at createAccount.Stepdef.create_new_Account(Stepdef.java:95)
+	at ?.Then create new Account(createAccount/createAccount.feature:8)
+
